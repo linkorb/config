@@ -1,0 +1,11 @@
+# Import further configuration files
+parameters:
+    $import: parameters.yml
+    
+hello: world
+x: "%parameters.color%"
+y: "%env('SHAPE')%"
+
+packages:
+    "demo":
+        $import: packages/demo.json

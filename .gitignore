@@ -1,0 +1,13 @@
+tmp/
+.env
+*.tmp
+*.bak
+*.swp
+*~.nib
+data/
+local.properties
+.settings/
+
+### Composer ###
+vendor/
+autotune.json

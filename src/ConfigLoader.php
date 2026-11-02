@@ -7,7 +7,7 @@ use RuntimeException;
 
 class ConfigLoader
 {
-    public function loadFile(string $baseDir, string $filename = null)
+    public function loadFile(string $baseDir, ?string $filename = null)
     {
         if (!$filename) {
             $filename = '/' . basename($baseDir);
